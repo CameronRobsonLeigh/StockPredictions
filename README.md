@@ -3,6 +3,8 @@ ARIMA and LSTM models to forecast stock price for x days in the future, built us
 Removal of packages in Source control that will need to be reinstalled:
 - Tensorflow
 - Plotly
+- Pandas
+- Clang
 
 Change pyenv to look at your local Python file - version 3.10.5
 
