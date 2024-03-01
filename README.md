@@ -1,4 +1,4 @@
-ARIMA and LSTM models to forecast stock price for x days in the future, built using Django framework.
+ARIMA and LSTM models to forecast selected stock prices for x days in the future, built using Django framework.
 
 Removal of packages in Source control that will need to be reinstalled:
 - Tensorflow
