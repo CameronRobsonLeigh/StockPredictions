@@ -1,0 +1,16 @@
+go to directory:
+1. cd C:\Users\crl\Desktop\djangoapp
+2. Enter virtual environment - environment\Scripts\activate
+3. go to project folder - cd C:\Users\crl\Desktop\djangoapp\djangoapp
+4. run off local host - py manage.py runserver
+
+Location of view pages:
+C:\Users\crl\Desktop\djangoapp\environment\Lib\site-packages\django\contrib\auth\templates\pages
+
+How to create database tables/access the django front end stuff:
+1. Create model in models.py file
+2. Migrate the new model - python manage.py makemigrations project
+3. push to sql - python manage.py sqlmigrate project 0001 (number will increment)
+4. Migrate whole project - python manage.py migrate project
+5. To create super user for db (already done but will put here anyway) - python manage.py createsuperuser
+6. python manage.py runserver
